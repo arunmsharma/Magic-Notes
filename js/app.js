@@ -14,7 +14,7 @@ addBtn.addEventListener("click", function (e) {
   }
   let myObj = {
     title: addTitle.value,
-    text: addTxt.value
+    text: addTxt.value,
   };
   notesObj.push(myObj);
   localStorage.setItem("notes", JSON.stringify(notesObj));
@@ -90,5 +90,5 @@ search.addEventListener("input", function () {
 // // Further Features
 // 1. Add title.
 // 2. Mark a note as important
-// 3. Seperate notes by user 
-// 4. Sync and host by web server 
+// 3. Seperate notes by user
+// 4. Sync and host by web server
